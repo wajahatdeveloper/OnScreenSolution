@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Driver", "Driver\Driver.vcxproj", "{515029AF-E25F-4909-B50E-91259B4FEDC3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{17234204-29F5-495A-B199-305576E4EBC3} = {17234204-29F5-495A-B199-305576E4EBC3}
+		{091611CE-927E-4252-B72E-FC19F40D6B0E} = {091611CE-927E-4252-B72E-FC19F40D6B0E}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68A5147D-1349-4815-8F19-CBBAE5116014}"
 	ProjectSection(SolutionItems) = preProject
